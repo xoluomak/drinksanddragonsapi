@@ -6,9 +6,6 @@ const mongoose = require('mongoose');
 
 const Notification = require('../models/Notification');
 
-const path = require('path');
-
-const admin = require('firebase-admin');
 
 exports.registerNotification = catchAsync(async (req, res, next) => {
   const { user, tokenID } = req.body;

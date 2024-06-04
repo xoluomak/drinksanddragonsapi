@@ -1,7 +1,6 @@
 const Notif = require('../models/notifs');
 const User = require('../models/users');
 const Pet = require('../models/pets');
-const admin = require("firebase-admin");
 const cron = require('node-cron');
 
 cron.schedule('0 * * * *', function() {
