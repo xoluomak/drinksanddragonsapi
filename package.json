@@ -1,0 +1,24 @@
+{
+  "name": "repminder_backend",
+  "version": "1.0.0",
+  "description": "repminder backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yoann cayron",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.19.1",
+    "buffer": "^6.0.3",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^6.1.4",
+    "mongoose-unique-validator": "^3.0.0",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.0"
+  }
+}
