@@ -1,7 +1,7 @@
 {
-  "name": "repminder_backend",
+  "name": "drinksanddragonsapi",
   "version": "1.0.0",
-  "description": "repminder backend",
+  "description": "drinksanddragons backend",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
